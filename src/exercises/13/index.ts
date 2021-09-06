@@ -76,7 +76,7 @@ function logPerson(person: Person, index: number) {
         additionalInformation = person.occupation;
     }
     let registeredAt = dateWizard(person.registered, '{date}.{month}.{year} {hours}:{minutes}');
-    let num = `#${dateWizard.pad(index + 1)}`;
+    let num = `#${dateWizard.padding(index + 1)}`;
     console.log(
         ` - ${num}: ${person.name}, ${person.age}, ${additionalInformation}, ${registeredAt}`
     );

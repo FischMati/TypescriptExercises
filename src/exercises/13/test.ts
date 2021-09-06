@@ -17,7 +17,7 @@ typeAssert<
 
 typeAssert<
     IsTypeEqual<
-        typeof dateWizard.pad,
+        typeof dateWizard.padding,
         (level: number) => string
     >
 >();
